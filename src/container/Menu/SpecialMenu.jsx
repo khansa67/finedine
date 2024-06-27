@@ -37,7 +37,7 @@ const SpecialMenu = () => {
           </div>
         </div>
         <div className="app__specialMenu-menu_img">
-          <video ref={vidRef} src={images.menu} autoPlay loop  style={{ width: '100%', height: 'auto' }} />
+          <video ref={vidRef} src={images.menu} autoPlay  muted loop  style={{ width: '100%', height: 'auto' }} />
         </div>
         <div className="app__specialMenu-menu_cocktails">
           <p className='app__specialMenu-menu_heading'>Cocktails</p>
